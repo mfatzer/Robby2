@@ -34,6 +34,6 @@ void loop()
 //Add your repeated code here
 	motor1.step();
 	motor2.step();
-	// Minimum delay mit 16* Microstepping
-	delayMicroseconds(60);
+	// Minimum delay mit 16* Microstepping (60 micros)
+	delayMicroseconds(10000);
 }
